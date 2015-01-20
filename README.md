@@ -1,31 +1,15 @@
-# Faxomat::Client
+# Faxomat-Client
 
-TODO: Write a gem description
+Client for Faxomat HTTP-API.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'faxomat-client'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install faxomat-client
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ faxomat --phone 0123456789 --title 'Chunky Bacon' chunky.pdf
 
-## Contributing
+## Copyright
 
-1. Fork it ( https://github.com/[my-github-username]/faxomat-client/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Copyright 2015 Björn Albers

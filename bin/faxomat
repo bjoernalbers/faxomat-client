@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+
+require 'faxomat/client'
+
+include Faxomat::Client
+
+opts = CLI.new.parse(ARGV)
+path = opts.args.first
+raise "File is missing!" unless path
+Fax.new(phone: opts[:phone], title: opts[:title], path: path).deliver

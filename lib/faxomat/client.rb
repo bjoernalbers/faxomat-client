@@ -1,7 +1,5 @@
-require "faxomat/client/version"
-
-module Faxomat
-  module Client
-    # Your code goes here...
-  end
-end
+require 'slop'
+require 'rest-client'
+require 'faxomat/client/version'
+require 'faxomat/client/fax'
+require 'faxomat/client/cli'
